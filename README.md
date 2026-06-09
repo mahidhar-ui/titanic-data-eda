@@ -1,22 +1,23 @@
-# titanic-data-eda
-Exploratory data analysis on [dataset name] using Python, Pandas, and Matplotlib.
-# [Dataset Name] — Exploratory Data Analysis
+# Titanic Dataset — Exploratory Data Analysis
 
-EDA on [dataset name] using Python, Pandas, Matplotlib, and Seaborn.
+EDA on 891 Titanic passenger records using Python, Pandas, Matplotlib, and Seaborn
+to uncover survival patterns across gender, class, and age.
 
 ## Tools Used
-Python · Pandas · NumPy · Matplotlib · Seaborn · Jupyter Notebook
+Python · Pandas · NumPy · Matplotlib · Seaborn · Jupyter Notebook · Google Colab
 
 ## What I Analysed
-- Data quality check: missing values, data types, shape
-- Top 10 [categories/products/regions] by [metric]
-- Trend of [metric] over time
+- Data quality check: missing values, data types, shape (891 rows × 12 columns)
+- Survival rate breakdown by gender, passenger class, and age group
+- Age distribution comparison between survivors and non-survivors
 
 ## Key Findings
-- [Finding 1]:Women survived at nearly 4x the rate of men
-Female passengers had a 74% survival rate compared to only 19% for males — reflecting the "women and children first" evacuation protocol..
-- [Finding 2]:1st class passengers survived at 63%, 2nd class at 47%, and 3rd class at only 24% — highlighting a strong socioeconomic bias in survival outcomes.
-- [Finding 3]:The 20–35 age group had the highest death count. Children under 10 had a relatively higher survival rate, consistent with evacuation priority given to young children.
+- **Gender:** Female passengers survived at 74% vs only 19% for males —
+  reflecting the "women and children first" evacuation protocol
+- **Passenger Class:** Survival rate dropped from 63% (1st class) to 24%
+  (3rd class), revealing a strong socioeconomic disparity
+- **Age:** The 20–35 age group had the highest casualty count; children
+  under 10 showed above-average survival rates
 
 ## Files
-- `pythonproject.ipynb` — main notebook ,output visualizations
+- `titanic-data-analysis.ipynb` — full analysis notebook with charts and findings
